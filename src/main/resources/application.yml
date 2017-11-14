@@ -9,7 +9,7 @@ server:
 logging:
    file: /logs/cqxxxxxxxx.web.log
    level:
-     root: debug
+     root: info
 
 
 #  as default

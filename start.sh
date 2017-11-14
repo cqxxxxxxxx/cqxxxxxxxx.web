@@ -13,4 +13,4 @@ docker build --build-arg APP_MODULE="cqxxxxxxxx.web" --build-arg APP_ENV="dev" -
 #//docker stop $CID
 #//docker rm $CID
 #//执行新起一个容器 -d:后台运行容器 -p:host跟contrainer中端口映射 -e:设置环境变量这里是设置容器的时区 也可以通过数据卷挂载到host时区文件来统一时区，看docker的学习简记
-docker run -d -p 8080:9000 -v ~/logs:/usr/local/tomcat/logs --name webdemo -e TZ=Asia/Shanghai cqxxxxxxxx.web
+docker run -d -p 8080:9000 -v ~/logs:/logs --name webdemo -e TZ=Asia/Shanghai cqxxxxxxxx.web
