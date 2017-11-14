@@ -2,7 +2,6 @@ FROM java:openjdk-8-jdk
 
 MAINTAINER cqxxxxxxxx@gmail.com
 
-FROM openjdk:8-jdk-alpine
 VOLUME /tmp
 ARG APP_MODULE
 ENV APP_MODULE ${APP_MODULE}
