@@ -1,0 +1,19 @@
+spring:
+    application:
+        name: cqxxxxxxxx.web
+---
+spring:
+
+server:
+  port: 9000
+logging:
+   file: /logs/cqxxxxxxxx.web.log
+   level:
+     root: debug
+
+
+#  as default
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    suffix: .html
+
